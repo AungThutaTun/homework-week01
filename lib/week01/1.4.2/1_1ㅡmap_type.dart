@@ -6,5 +6,5 @@ void main() {
 
   };
   print(dictionary ['Harry Potter']);
-  print(dictionary ['Hxermione Granger']);
+  print(dictionary ['Hermione Granger']);
 }
