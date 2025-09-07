@@ -6,7 +6,8 @@ void main() {
   print(blackPink.toList());
 
 List<String> blackPink2 = ['로제', ' 지수', '지수'];
-print(Set.form(blackPink2))
+print(Set.from(blackPink2));
+}
 
 
 
