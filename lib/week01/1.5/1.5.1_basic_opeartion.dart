@@ -1,0 +1,19 @@
+void main() {
+  double number = 2;
+
+
+  print(number+2); //4.0 출력
+  print(number-2); //0 출력
+  print(number *2); //4.0 출력
+  print(number /2) ;//1.0 출력
+  print(number %3); //2.0 출력
+
+  number++; //3
+  number--; //2
+  number +=2; //4
+  number -=2; //0
+  number *=2; //4
+  number /=2; //1 
+
+}
+
