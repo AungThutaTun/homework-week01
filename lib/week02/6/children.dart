@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
+  runApp( 
     MaterialApp(
       home: Scaffold(
-        body: SizedBox(,
-        width: double.infinity,
-        child: Column(children: [MainAxisAlignment: MainAxisAlignment.Center,
-        
-        
-        children:[
-          Text('Code'),
-          Text('Factory'),
-        ]
-        ()],))
-      ),
+        body: SizedBox(
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text('Code'),
+              Text('Factory'),
+            ],
+          ),
+        ),
+      )
     ),
   );
 }
