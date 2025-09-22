@@ -19,11 +19,11 @@ class ColumnWidgetExample extends StatelessWidget {
 
           ),
           ),
-          Expended(
+          Expanded(
             child:Container(
               color:Colors.red,
           ),
-          ),
+          )
          ],
          ),
         ),
