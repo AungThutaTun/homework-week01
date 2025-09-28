@@ -21,3 +21,11 @@ class HomeScreen extends StatelessWidget{
     return Text("DDay Widget");
   }
  }
+
+ class _CoupleImage extends StatelessWidget{
+  @override
+  Widget build (BuildContext context) {
+    return Text("Couple Image Widget");
+  }
+ }
+ 
