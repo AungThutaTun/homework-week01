@@ -1,0 +1,35 @@
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key : key);
+
+  @override
+  Widget build(BuildContext context){ 
+    return Scaffold(  
+      body: SafeArea(  
+        top: true,
+        bottom: false,
+        child: Column(  
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            _DDay(),
+            _CoupleImage(),
+          ],
+        )
+      ),
+    );
+  }
+}
+
+class _DDay extends StatelessWidget {
+  Widget build (BuildContext context) {
+    return Text("DDay Widget");
+  }
+}
+
+class _CoupleImage extends StatelessWidget {
+  Widget build (BuildContext context) {
+    return Text("Couple Image Widget");
+  }
+}
